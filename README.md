@@ -15,3 +15,5 @@ In order to run this game application, please follow the below mentioned steps i
 * Go into project directory
 
 * Run the rails application with command 'rails s'. The application should run
+
+* Run Tests with command 'rails test "./test/controller/<controller-name>"' 
