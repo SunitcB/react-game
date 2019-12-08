@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In order to run this game application, please follow the below mentioned steps in order:
 
-Things you may want to cover:
+* Install Ruby v 2.6.5p114 
 
-* Ruby version
+* Install Rails v 6.0.1
 
-* System dependencies
+* Install Bundler v 2.0.2
 
-* Configuration
+* Install Yarn v 1.19.2
 
-* Database creation
+* Clone the project from remote repo url https://github.com/SunitcB/react-game.git
 
-* Database initialization
+* Go into project directory
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Run the rails application with command 'rails s'. The application should run
