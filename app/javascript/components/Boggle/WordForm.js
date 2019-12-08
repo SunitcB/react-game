@@ -32,11 +32,8 @@ export default class WordForm extends React.Component {
   }
 
   checkInput = (input) => {
-    debugger
-    console.log(this.props.letters)
     if (input.length === 1) return this.props.letters.toLowerCase().includes(input)
     const board = this.buildBoardObject()
-    console.log(input, board)
     for (let i = 1; i <= Object.keys(board).length; i++) {
       if (board[i] === input[0]) {
         if (this.checkIfFollowingLettersAreValid(input, i, board)) {
